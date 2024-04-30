@@ -34,7 +34,7 @@ let data_product = [
     image: p4_img,
     new_price: 100.0,
     old_price: 150.0,
-  },
+  }
 ];
 
 export default data_product;

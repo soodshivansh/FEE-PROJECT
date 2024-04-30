@@ -12,7 +12,7 @@ export const Offers = () => {
             <button>Check Now</button>
         </div>
         <div className="offers-right">
-            <img src={exclursive_image} alt="" />
+            <img className='offers-right-image' src={exclursive_image} alt="" />
         </div>
     </div>
   )
