@@ -28,27 +28,27 @@ export const ProductDisplay = (props) => {
                 <img src={start_icon} alt="" />
                 <img src={start_icon} alt="" />
                 <img src={start_dull_icon} alt="" />
-                <p>(122)</p>
+                <p>(12)</p>
             </div>
             <div className="productdisplay-right-prices">
-                <div className="productdisplay-right-price-old">${product.old_price}</div>
-                <div className="productdisplay-right-price-new">${product.new_price}</div>
+                <div className="productdisplay-right-price-old">₹{product.old_price}</div>
+                <div className="productdisplay-right-price-new">₹{product.new_price}</div>
             </div>
             <div className="productdisplay-right-description">
                 A lightweight, usaually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.
             </div>
             <div className="productdisplay-right-size">
-                <h1>Select Size</h1>
+                <h1>Select Quantity</h1>
                 <div className="productdisplay-right-sizes">
-                    <div>S</div>
-                    <div>M</div>
-                    <div>L</div>
-                    <div>XL</div>
-                    <div>XXL</div>
+                    <div>1</div>
+                    <div>2</div>
+                    <div>3</div>
+                    <div>4</div>
+                    <div>5</div>
                 </div>
             </div>
             <button onClick={()=>{addToCart(product.id)}}>ADD TO CART</button>
-            <p className='productdisplay-right-category'>  <span>Category: </span> Women, T-Shirt, Croptop</p>
+            <p className='productdisplay-right-category'>  <span>Category: </span> books, clothing, items</p>
             <p className='productdisplay-right-category'>  <span>Tags: </span> Modern, Latest</p>
 
         </div>
