@@ -35,7 +35,7 @@ export const ProductDisplay = (props) => {
                 <div className="productdisplay-right-price-new">₹{product.new_price}</div>
             </div>
             <div className="productdisplay-right-description">
-                A lightweight, usaually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.
+                Beautiful Artifects At Low Prices.
             </div>
             <div className="productdisplay-right-size">
                 <h1>Select Quantity</h1>
